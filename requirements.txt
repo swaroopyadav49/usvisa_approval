@@ -23,4 +23,7 @@ fastapi
 uvicorn
 jinja2
 python-multipart
--e.
+python 
+
+pymongo[srv]==3.4
+#-e.
