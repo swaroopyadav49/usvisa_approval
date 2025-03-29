@@ -34,7 +34,7 @@ pip install -r requirments.txt
 ## Workflow:               
 1. constants
 2. entity
-3. configuration
-4. components
-5. pipeline
-6. Main file
+     i) configuration (only once during data ingestion face)
+3. components
+4. pipeline
+5. Main file
