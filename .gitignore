@@ -1,3 +1,5 @@
 usvenv
 .env
-us_visa.egg-info
+us_visa.egg-info/*
+
+artifact/*
