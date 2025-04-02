@@ -40,7 +40,7 @@ pip install -r requirments.txt
 
 
 
-# Env in windows
+# save the keys in Env if using windows
 
 - AWS_ACCESS_KEY_ID
 - AWS_SECRET_ACCESS_KEY
