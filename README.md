@@ -37,3 +37,10 @@ pip install -r requirments.txt
 3. components
 4. pipeline
 5. Main file
+
+
+
+# Env in windows
+
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
