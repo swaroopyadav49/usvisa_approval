@@ -41,7 +41,7 @@ pip install -r requirments.txt
 
 # s3
 
-# save the keys in Env if using windows 
+# Save the keys in local Machine Env if using windows 
 
 - AWS_ACCESS_KEY_ID
 - AWS_SECRET_ACCESS_KEY
@@ -68,7 +68,7 @@ pip install -r requirments.txt
 
      3. Launch Your EC2 
 
-     4. Pull Your image from ECR in EC2
+   a  4. Pull Your image from ECR in EC2
  
      5. Lauch your docker image in EC2
 
