@@ -39,9 +39,8 @@ pip install -r requirments.txt
 5. Main file
 
 
-# s3
 
-# Save the keys in local Machine Env if using windows 
+# Save the keys in local Machine Env if using windows (for s3 service).
 
 - AWS_ACCESS_KEY_ID
 - AWS_SECRET_ACCESS_KEY
