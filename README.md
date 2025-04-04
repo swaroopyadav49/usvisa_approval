@@ -67,7 +67,7 @@ pip install -r requirments.txt
 
      3. Launch Your EC2 
 
-   a  4. Pull Your image from ECR in EC2
+     4. Pull Your image from ECR in EC2
  
      5. Lauch your docker image in EC2
 
