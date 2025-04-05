@@ -82,7 +82,7 @@ pip install -r requirments.txt
 
 ## 3. Create ECR repo to store/save docker image
 
-     - save the ECR URI: 
+     - save the ECR URI: 443370711849.dkr.ecr.us-east-1.amazonaws.com/visa
 
 # 4. Create EC2 machine (Ubuntu)
 
@@ -103,6 +103,8 @@ pip install -r requirments.txt
      sudo usermod -aG docker ubuntu
 
      newgrp docker
+
+     (If want to check whether docker is running or not then command, docker --version) 
 
 # 6. Configure EC2 as self-hosted runner:
 
