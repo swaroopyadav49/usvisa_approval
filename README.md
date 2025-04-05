@@ -38,9 +38,12 @@ pip install -r requirments.txt
 4. pipeline
 5. Main file
 
+# First login to AWS console and create the s3 bucket to load the pickle file.
 
+- created the bucket with name: usvisa-model2025-april
+- now create a Access key for s3 bucket.
 
-# Save the keys in local Machine Env if using windows (for s3 service).
+# Now, Save the keys in local Machine Env if using windows (for s3 service).
 
 - AWS_ACCESS_KEY_ID
 - AWS_SECRET_ACCESS_KEY
