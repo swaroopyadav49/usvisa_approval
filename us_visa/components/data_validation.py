@@ -7,6 +7,7 @@ from evidently.model_profile.sections import DataDriftProfileSection
 
 from pandas import DataFrame
 
+
 from us_visa.exception import USvisaException
 from us_visa.logger import logging
 from us_visa.utils.main_utils import read_yaml_file, write_yaml_file
@@ -15,8 +16,10 @@ from us_visa.entity.config_entity import DataValidationConfig
 from us_visa.constants import SCHEMA_FILE_PATH
 
 
+
 class DataValidation:
-    def __init__(self, data_ingestion_artifact: DataIngestionArtifact, data_validation_config: DataValidationConfig):
+    def __init__(self, data_ingestion_artifact: DataIngestionArtifact, 
+                 data_validation_config: DataValidationConfig):
         """
         :param data_ingestion_artifact: Output reference of data ingestion artifact stage
         :param data_validation_config: configuration for data validation
@@ -27,6 +30,7 @@ class DataValidation:
             self._schema_config =read_yaml_file(file_path=SCHEMA_FILE_PATH)
         except Exception as e:
             raise USvisaException(e,sys)
+        
 
     def validate_number_of_columns(self, dataframe: DataFrame) -> bool:
         """
@@ -42,6 +46,8 @@ class DataValidation:
             return status
         except Exception as e:
             raise USvisaException(e, sys)
+        
+
 
     def is_column_exist(self, df: DataFrame) -> bool:
         """
@@ -73,6 +79,7 @@ class DataValidation:
             return False if len(missing_categorical_columns)>0 or len(missing_numerical_columns)>0 else True
         except Exception as e:
             raise USvisaException(e, sys) from e
+        
 
     @staticmethod
     def read_data(file_path) -> DataFrame:
