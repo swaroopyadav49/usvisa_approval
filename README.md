@@ -80,6 +80,7 @@ pip install -r requirments.txt
 
      2. AmazonEC2FullAccess
 
+
 ## 3. Create ECR repo to store/save docker image
 
      - save the ECR URI: 443370711849.dkr.ecr.us-east-1.amazonaws.com/visarepo
@@ -106,7 +107,7 @@ pip install -r requirments.txt
 
      (If want to check whether docker is running or not then command, docker --version) 
 
-# 6. Configure EC2 as self-hosted runner:
+# 6. Configure EC2 as self-hosted runner: (In GitHub)
 
      setting>actions>runner>new self hosted runner> choose os> then run command one by one
 
