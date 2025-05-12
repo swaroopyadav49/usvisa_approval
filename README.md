@@ -114,10 +114,15 @@ pip install -r requirments.txt
 # 7. Setup github secrets:
 
 - AWS_ACCESS_KEY_ID
+
 - AWS_SECRET_ACCESS_KEY
-- AWS_DEFAULT_REGION
+
+- AWS_REGION  :    us-east-1
+
 - AWS_ECR_LOGIN_URI
+
 - ECR_REPOSITORY_NAME
+
 - MONGODB_URL
 
 
