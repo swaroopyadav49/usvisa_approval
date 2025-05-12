@@ -1,5 +1,5 @@
 usvenv
-.env
 logs
 artifact
+.env
 us_visa.egg-info

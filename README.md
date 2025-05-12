@@ -83,7 +83,7 @@ pip install -r requirments.txt
 
 ## 3. Create ECR repo to store/save docker image
 
-     - save the ECR URI: 443370711849.dkr.ecr.us-east-1.amazonaws.com/visarepo
+     - save the ECR URI: 443370711849.dkr.ecr.us-east-1.amazonaws.com/visa
 
 # 4. Create EC2 machine (Ubuntu)
 
@@ -116,4 +116,9 @@ pip install -r requirments.txt
 - AWS_ACCESS_KEY_ID
 - AWS_SECRET_ACCESS_KEY
 - AWS_DEFAULT_REGION
-- ECR_REPO
+- AWS_ECR_LOGIN_URI
+- ECR_REPOSITORY_NAME
+- MONGODB_URL
+
+
+# ec2: visa-machine
